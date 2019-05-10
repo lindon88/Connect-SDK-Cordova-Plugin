@@ -47,6 +47,7 @@
         <framework src="Connect-SDK-iOS/ConnectSDK.framework" custom="true" type="projectReference" />
         <framework src="CocoaLumberjack" type="podspec" spec="~> 3.4.2" />
         <framework src="CocoaAsyncSocket" type="podspec" spec="~> 7.6.3" />
+        <framework src="GCDWebServer" type="podspec" spec="~> 3.5.2" />
 
         <hook type="after_plugin_install" src="scripts/ios-install.js" />
         <hook type="before_plugin_uninstall" src="scripts/ios-uninstall.js" />
